@@ -14,10 +14,11 @@ To write a program to find the LU Decomposition of a matrix.
 4. End the Program.
 
 ## Program:
+```
 # (i)To find the L and U matrix
 # Developed by: AARON I
 # RegisterNumber: 23002289
-```
+
 import sys
 import numpy as np
 from scipy.linalg import lu
@@ -26,10 +27,10 @@ p,l,u=lu(a)
 print(l)
 print(u)
 ```
+```
 # (ii) To find the LU Decomposition of a matrix
 # Developed by: AARON I
 # RegisterNumber: 23002289
-```
 
 # To print X matrix (solution to the equations)
 import numpy as np
@@ -42,7 +43,7 @@ print(x)
 ```
 
 ## Output:
-![output](/Screenshot%202023-07-26%20154307.png)
+![output](/Screenshot1.png)
 ![output](/Screenshot%202023-07-26%20154412.png)
 
 
